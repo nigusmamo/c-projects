@@ -419,7 +419,6 @@ void deleteRecordByCode(vector<string> &records)
             }
         }
 
-
         char confirm;
         cout << "┌─ Confirm Deletion ─┐" << endl;
         cout << "│ Record found: " << records[index] << endl;
