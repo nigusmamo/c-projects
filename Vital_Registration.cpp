@@ -14,7 +14,7 @@ struct Record
     vector<string> attributes;
 };
 
-// Function prototypes
+
 void registerRecord(vector<string> &records, const string &type);
 void displayAllRecords(const vector<string> &records);
 void generateCertificate(const string &record);
