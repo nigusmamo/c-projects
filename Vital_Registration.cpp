@@ -155,7 +155,6 @@ int findRecordByCode(const vector<string> &records, const string &code)
     return -1;
 }
 
-// Function to search records by name
 void searchRecordsByName(const vector<string> &records)
 {
     string searchName;
