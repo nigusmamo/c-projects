@@ -13,7 +13,7 @@ class MusicPlayer {
 private:
     Song* head;
     Song* tail;
-    int songCount;
+    // int songCount;
     
 public:
     MusicPlayer() : head(nullptr), tail(nullptr), songCount(0) {
