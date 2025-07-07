@@ -10,11 +10,6 @@ struct Song {
 };
 
 class MusicPlayer {
-private:
-    Song* head;
-    Song* tail;
-    // int songCount;
-    
 public:
     MusicPlayer() : head(nullptr), tail(nullptr), songCount(0) {
         
